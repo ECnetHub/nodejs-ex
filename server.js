@@ -1,4 +1,5 @@
 //  OpenShift sample Node application 2016/11/21
+
 var express = require('express'),
     fs      = require('fs'),
     app     = express(),
