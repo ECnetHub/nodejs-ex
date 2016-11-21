@@ -1,4 +1,4 @@
-//  OpenShift sample Node application
+//  OpenShift sample Node application 2016/11/21
 var express = require('express'),
     fs      = require('fs'),
     app     = express(),
@@ -72,7 +72,7 @@ app.get('/', function (req, res) {
       res.render('index.html', { pageCountMessage : count, dbInfo: dbDetails });
     });
   } else {
-    res.render('index.html', { pageCountMessage : null});
+    res.render('index.html', { pageCountMessage : null}); 
   }
 });
 
